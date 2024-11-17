@@ -1,0 +1,134 @@
+@media (max-width: 1024px) {
+    .comments__items{
+        flex-direction: column;
+    }
+
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info__base{
+        text-align: center;
+    }
+
+    .footer-info__useful-social{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .project-intro__append-text{
+        display: none;
+    }
+
+    #project-intro{
+        height: 100px;
+        top: -52px;
+        padding: 5px 45px;
+        max-width: 90vw;
+    }
+
+    #project-intro h2{
+        font-size: 24px;
+    }
+
+    .stats{
+        align-items: center;
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .stat-item{
+        margin-right: 0;
+        width: 95%;
+        max-width: 95%;
+    }
+
+    .my-works__sections{
+        width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .my-works__sections li{
+        padding: 10px 0;
+    }
+    
+    .my-works__examples{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        
+        flex-direction: column;
+    }
+
+    .my-works__examples .item-4, .my-works__examples .item-5, .my-works__examples .item-6{
+        display: none;
+    }
+
+    .about, .skills_block, .skills{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .about_text, .skills_text{
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+    
+    .about_text a {
+        display: none;
+    }
+
+    .about p, .skills p{
+        font-size: 20px;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .footer-info__useful, .footer-info__social {
+        text-align: center;
+    }
+
+    .skills-icons{
+        width: 80%;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .pager{
+        margin-bottom: 15px;
+    }
+
+    #my-works{
+        margin-bottom: 25px;
+    }
+
+    .carousel-indicator{
+        margin-bottom: 50px;
+    }
+
+    .nav-links{
+        justify-content: center;
+    }
+
+    .hire-me-btn, .hire-me-btn1{
+        font-size: 18px;
+    }
+
+    .intro{
+        padding: 60px 60px 0 60px;
+    }
+}
